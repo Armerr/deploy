@@ -1,0 +1,1 @@
+import{h as s}from"./http.X-MHi8gp.js";const a=a=>s.get("/class/all",a),l=a=>s.get("/class/score/info",a),t=a=>s.post("/class/group/score/cal",null,a),o=a=>s.post("/class/student/score/cal",null,a),c=(a,l)=>s.post("/class/student/leader/set",a,l);export{o as a,l as g,t as h,a as l,c as s};
