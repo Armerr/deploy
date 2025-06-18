@@ -1,0 +1,1 @@
+import{h as s}from"./http.vJaz04Ko.js";const t=t=>s.get("/class/all",t),a=t=>s.get("/class/score/info",t),l=t=>s.post("/class/group/score/cal",null,t),e=t=>s.post("/class/student/score/cal",null,t),o=(t,a)=>s.post("/class/student/score/set",t,a),c=(t,a)=>s.post("/class/student/leader/set",t,a);export{c as a,e as b,a as g,l as h,t as l,o as s};

@@ -1,0 +1,1 @@
+System.register(["./index-legacy.JL_bq9G0.js","./vendor-legacy.vE6dorRw.js"],(function(e,t){"use strict";var n,r,u;return{setters:[function(e){n=e._},function(e){r=e.b,u=e.c}],execute:function(){e("default",n({},[["render",function(e,t){return r(),u("div",null,"test")}]]))}}}));
