@@ -1,1 +1,0 @@
-import{e as a,o as s,c as o,n as t}from"./index-Q9DsLH61.js";const h={__name:"test",setup(r){const e=a(()=>headerStore.scrollY>100&&headerStore.bgOpacity>.8);return(c,l)=>(s(),o("header",{class:t(["site-header",{"has-shadow":e.value}])},null,2))}};export{h as default};
