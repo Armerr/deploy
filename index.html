@@ -4,7 +4,31 @@
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bloom</title>
+    <title>✨ "Muss es sein?" | 青山浮云'</title>
+    <script>
+      const titleConfig = {
+        visible: '✨ "Muss es sein?" | 青山浮云',
+        hidden: '✨ "Es muss sein!" | 轻之彼岸'
+      };
+      
+      // 页面可见性变化监听
+      document.addEventListener('visibilitychange', function() {
+        if (document.hidden) {
+          document.title = titleConfig.hidden;
+        } else {
+          document.title = titleConfig.visible;
+          // 可以添加一个短暂的欢迎回来效果
+          setTimeout(() => {
+            document.title = titleConfig.visible;
+          }, 1000);
+        }
+      });
+      
+      // 页面加载完成后设置初始标题
+      document.addEventListener('DOMContentLoaded', function() {
+        document.title = titleConfig.visible;
+      });
+    </script>
     <script type="module" crossorigin src="/assets/index-DKaGwsMt.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-C5yOeYDI.css">
   </head>
